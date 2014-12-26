@@ -1,0 +1,21 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block styles %}
+  <style>
+    html { 
+      background: url({{url_for('static', filename='pic.jpg')}}) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+  </style>
+{% endblock %}
+
+{% block title %} GO DO SOME WORK! {% endblock %}
+
+{% block content %}
+{% endblock %}
+
+
